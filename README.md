@@ -9,8 +9,8 @@ repository for my full stack 2019 course submissions
 
 [0.6](https://github.com/kalmikko/fullstackopen2019/blob/master/week0/0.6-img.png)
 
-###week 1
-[1.5 course information]()
+### week 1
+[1.5 course information](https://github.com/kalmikko/fullstackopen2019/tree/master/week1/courseinfo)
 
 [1.11 unicafe](https://github.com/kalmikko/fullstackopen2019/tree/master/week1/unicafe)
 
