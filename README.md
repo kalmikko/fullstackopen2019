@@ -21,3 +21,5 @@ repository for my full stack 2019 course submissions
 [countrydata](https://github.com/kalmikko/fullstackopen2019/tree/master/week2/countrydata)
 
 [phonebook](https://github.com/kalmikko/fullstackopen2019/tree/master/week2/phonebook)
+
+[course_information week2](https://github.com/kalmikko/fullstackopen2019/tree/master/week2/coursecontentweek2)
