@@ -6,7 +6,7 @@
   "scripts": {
     "build:ui": "rm -rf build && cd /home/kalmikko/kurssit/_fullstack2019/week2/phonebook && npm run build --prod && cp -r build /home/kalmikko/kurssit/_fullstack2019/week3/phonebook_backend/",
     "deploy": "git push heroku master",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",    
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",
     "logs:prod": "heroku logs --tail",
     "watch": "nodemon index.js",
     "start": "node index.js",
@@ -17,6 +17,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mongoose": "^5.6.0",
     "morgan": "^1.9.1"
   },
   "devDependencies": {

@@ -9,8 +9,24 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json())
 const cors = require('cors')
 app.use(cors())
+const mongoose = require("mongoose")
 
-let phonebook = [
+
+const password = "fullstack"
+
+
+const url =`mongodb+srv://fullstack:${password}@cluster0-kd1ta.mongodb.net/phoneDB?retryWrites=true&w=majority`
+
+mongoose.connect(url, { useNewUrlParser: true })
+
+const phoneSchema = new mongoose.Schema({
+name: String,
+number: String
+})
+
+const Phone = mongoose.model('Phone', phoneSchema)
+
+/*let phonebook = [
     {
         "id": 1,
         "name": "Arto Hellas",
@@ -26,7 +42,7 @@ let phonebook = [
         "name": "Mikko Meikäläinen",
         "number": "040-130067"
     }
-]
+]*/
 
 app.post('/api/persons', (req,res) => {
     const body = req.body
@@ -68,9 +84,11 @@ app.get('/', (req, res) => {
   res.send('<h1>phonebook</h1>')
 })
 
-app.get('/api/persons', (req, res) => {
-  res.json(phonebook)
-})
+app.get('/api/persons', (request, response) => {
+    Phone.find({}).then(notes => {
+      response.json(notes)
+    })
+  })
 
 app.get('/info', (req, res) => {
     var datestamp = new Date()
