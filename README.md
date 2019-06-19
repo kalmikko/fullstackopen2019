@@ -23,3 +23,11 @@ repository for my full stack 2019 course submissions
 [phonebook](https://github.com/kalmikko/fullstackopen2019/tree/master/week2/phonebook)
 
 [course_information week2](https://github.com/kalmikko/fullstackopen2019/tree/master/week2/coursecontentweek2)
+
+## week3
+
+[week3 programs](https://github.com/kalmikko/fullstackopen2019/tree/master/week3)
+
+[frontend/backend connecting folders](https://github.com/kalmikko/heroku)
+
+note, these folders are in a separate github repository. I did not get Heroku to work, so I skipped those exercises, if I need to do them to get this course done, I will return to them later.
