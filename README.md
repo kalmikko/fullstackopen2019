@@ -31,3 +31,7 @@ repository for my full stack 2019 course submissions
 [frontend/backend connecting folders](https://github.com/kalmikko/heroku)
 
 note, these folders are in a separate github repository. I did not get Heroku to work, so I skipped those exercises, if I need to do them to get this course done, I will return to them later.
+
+## week 4
+
+[bloglist](https://github.com/kalmikko/fullstackopen2019/tree/master/week4/bloglist)
